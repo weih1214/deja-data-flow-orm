@@ -3,9 +3,9 @@ from typing import List, Type
 from sqlalchemy import Column, Integer, Text
 from sqlalchemy.orm import relationship
 
-from orm import OfflineFlowBase
-from orm.product_inventory_metadata import ProductInventoryMetadata
-from orm.product_tags import ProductTags
+from deja_orm import OfflineFlowBase
+from deja_orm.product_inventory_metadata import ProductInventoryMetadata
+from deja_orm.product_tags import ProductTags
 
 
 class ProductFeature(OfflineFlowBase):

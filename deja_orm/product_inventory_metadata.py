@@ -1,6 +1,6 @@
 from sqlalchemy import Integer, Column, String, DateTime, func
 
-from orm import OfflineFlowBase
+from deja_orm import OfflineFlowBase
 
 
 class ProductInventoryMetadata(OfflineFlowBase):

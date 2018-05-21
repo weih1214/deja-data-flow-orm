@@ -1,7 +1,7 @@
 from sqlalchemy import Column, Integer, BigInteger, String
 from sqlalchemy.dialects.mysql import BIT
 
-from orm import CrawlerBase
+from deja_orm import CrawlerBase
 
 
 class CrawlSite(CrawlerBase):

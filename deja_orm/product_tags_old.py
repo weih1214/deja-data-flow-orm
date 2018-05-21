@@ -1,6 +1,6 @@
 from sqlalchemy import Column, Integer, DateTime, String, Text
 
-from orm import OfflineFlowBase
+from deja_orm import OfflineFlowBase
 
 
 class ProductTagOld(OfflineFlowBase):

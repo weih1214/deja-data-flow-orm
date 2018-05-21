@@ -1,6 +1,6 @@
 from sqlalchemy import Column, Integer, BigInteger, String
 
-from orm import OfflineFlowBase
+from deja_orm import OfflineFlowBase
 
 
 class ProductTags(OfflineFlowBase):

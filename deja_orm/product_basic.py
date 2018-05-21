@@ -1,8 +1,8 @@
 from sqlalchemy import Integer, Column, String, Text
 from sqlalchemy.orm import relationship
 
-from orm import OfflineFlowBase
-from orm.product_identification import ProductIdentification
+from deja_orm import OfflineFlowBase
+from deja_orm.product_identification import ProductIdentification
 
 
 class ProductBasic(OfflineFlowBase):

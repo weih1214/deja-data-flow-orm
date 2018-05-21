@@ -1,7 +1,7 @@
 from sqlalchemy.dialects.mysql import BIT
 from sqlalchemy import Column, Integer, String, Boolean
 
-from orm import OfflineFlowBase
+from deja_orm import OfflineFlowBase
 
 
 class ProductIdentification(OfflineFlowBase):

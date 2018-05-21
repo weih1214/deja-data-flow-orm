@@ -1,6 +1,6 @@
 from sqlalchemy import Column, BigInteger, Text
 
-from orm import OfflineFlowBase
+from deja_orm import OfflineFlowBase
 
 
 class ProductFeatures(OfflineFlowBase):

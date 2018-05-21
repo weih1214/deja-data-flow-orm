@@ -1,6 +1,6 @@
 import sqlalchemy as sa
 
-from orm import OfflineFlowBase
+from deja_orm import OfflineFlowBase
 
 
 class StreetForAnalysis(OfflineFlowBase):

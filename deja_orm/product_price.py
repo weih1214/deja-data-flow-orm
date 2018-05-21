@@ -1,6 +1,6 @@
 from sqlalchemy import Column, Integer, DateTime, func
 
-from orm import OfflineFlowBase
+from deja_orm import OfflineFlowBase
 
 
 class ProductPrice(OfflineFlowBase):

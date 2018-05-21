@@ -2,7 +2,7 @@ import json
 
 from sqlalchemy import Column, Integer, Text
 
-from orm import OfflineFlowBase
+from deja_orm import OfflineFlowBase
 
 
 class ProductSizeGuide(OfflineFlowBase):

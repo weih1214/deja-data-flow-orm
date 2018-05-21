@@ -1,6 +1,6 @@
 from sqlalchemy import Column, BigInteger, Integer, String, Text, DateTime
 
-from orm import CrawlerBase
+from deja_orm import CrawlerBase
 
 
 class CrawlProduct(CrawlerBase):

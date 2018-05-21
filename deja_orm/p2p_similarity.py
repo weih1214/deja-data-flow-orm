@@ -1,6 +1,6 @@
 from sqlalchemy import Column, Integer, Text, DateTime, func
 
-from orm import OfflineFlowBase
+from deja_orm import OfflineFlowBase
 
 
 class P2PSimilarity(OfflineFlowBase):

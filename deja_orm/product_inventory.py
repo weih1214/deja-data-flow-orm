@@ -2,7 +2,7 @@ import json
 
 from sqlalchemy import Integer, Column, Text, Boolean, DateTime, func
 
-from orm import OfflineFlowBase
+from deja_orm import OfflineFlowBase
 
 
 class ProductInventory(OfflineFlowBase):
