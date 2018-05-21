@@ -104,10 +104,11 @@ venv.bak/
 
 # mypy
 .mypy_cache/
-### Ada template
-# Object file
-*.o
+### Example user template template
+### Example user template
 
-# Ada Library Information
-*.ali
-
+# IntelliJ project files
+.idea
+*.iml
+out
+gen
